@@ -1,0 +1,17 @@
+Following assumptions have been made while writing the program:
+	1. Each line in the input file has only one event with durations at it's end in the following pattern
+		Pattern:
+			<Title of the event> <Duration in min or lightning>
+		Example of input in the input file:
+			Title of talk1. 30min
+			Title of talk2. lightning
+			Title of talk3. 20min
+	2. Duration is always in lightning or in minutes in the following pattern:
+		Pattern:
+			<duration in integer>min OR lightning
+		Example:
+			30min
+			lightning
+	3. All the events are of 60 minutes or less.
+	4. The networking event will begin at same time for every track.
+	4. The time is in 24 hour clock.

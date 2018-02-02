@@ -1,0 +1,25 @@
+1. Software dependencies:
+	- Python3
+	- pip3
+
+2. Steps to run code:
+	Step 1: Go to root directory of the project(conferencescheduler).
+		Example: cd <Full path to conferencescheduler>/conferencescheduler
+
+	Step 2: Execute main.py. main.py is the entry point for code.
+		Example: python3 main.py
+
+	Step 3: You'll be prompted to enter absolute path of the file containing selected proposals.
+		Example: Enter full path of selected proposals with time duration:<enter absolute path>
+
+	Step 4: Enter absolute path of the file containing selected proposals.
+		- If file is in root directory of project(conferencescheduler), entering filename should be sufficient.
+
+3. Steps to run unit tests:
+	Step 1: Go to root directory of the project(conferencescheduler).
+		Example: cd <Full path to conferencescheduler>/conferencescheduler
+
+	Step 2: Install dependencies for running tests.
+		Example: pip3 install -r requirements.txt
+
+	Step 3: nosetests tests/
